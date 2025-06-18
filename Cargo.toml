@@ -1,0 +1,17 @@
+[package]
+name = "torrentz"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde         = { version = "1", features = ["derive"] }
+serde_bencode = "0.2"
+sha1          = "0.10"
+hex           = "0.4"
+serde_bytes   = "0.11.17"
+tokio         = { version = "1", features = ["full"] }
+reqwest       = { version = "0.11", features = ["json", "rustls-tls"] }
+percent-encoding = "2"
+url = "2"
+byteorder = "1.5.0"
+futures = "0.3.31"
